@@ -18,7 +18,7 @@
   <!--<a href="https://coveralls.io/github/libp2p/go-libp2p?branch=master"><img src="https://coveralls.io/repos/github/libp2p/go-libp2p/badge.svg?branch=master"></a>-->
   <br>
   <a href="https://github.com/RichardLitt/standard-readme"><img src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" /></a>
-  <a href="https://godoc.org/github.com/libp2p/go-libp2p"><img src="https://godoc.org/github.com/ipfs/go-libp2p?status.svg" /></a>
+  <a href="https://godoc.org/github.com/tim-coin/go-libp2p"><img src="https://godoc.org/github.com/ipfs/go-libp2p?status.svg" /></a>
   <a href=""><img src="https://img.shields.io/badge/golang-%3E%3D1.8.0-orange.svg?style=flat-square" /></a>
   <br>
 </p>
@@ -50,7 +50,7 @@ libp2p is the product of a long, and arduous quest of understanding -- a deep di
 > We will be writing a set of docs, posts, tutorials, and talks to explain what p2p is, why it is tremendously useful, and how it can help your existing and new projects. But in the meantime, check out
 >
 > - [**The libp2p Specification**](https://github.com/libp2p/specs)
-> - [**go-libp2p implementation**](https://github.com/libp2p/go-libp2p)
+> - [**go-libp2p implementation**](https://github.com/tim-coin/go-libp2p)
 > - [**js-libp2p implementation**](https://github.com/libp2p/js-libp2p)
 
 
@@ -65,15 +65,15 @@ There is currently only one bundle of `go-libp2p`, this package. This bundle is 
 ### Install
 
 ```bash
-> go get -d github.com/libp2p/go-libp2p/...
-> cd $GOPATH/src/github.com/libp2p/go-libp2p
+> go get -d github.com/tim-coin/go-libp2p/...
+> cd $GOPATH/src/github.com/tim-coin/go-libp2p
 > make
 > make deps
 ```
 
 ### API
 
-[![GoDoc](https://godoc.org/github.com/ipfs/go-libp2p?status.svg)](https://godoc.org/github.com/libp2p/go-libp2p)
+[![GoDoc](https://godoc.org/github.com/ipfs/go-libp2p?status.svg)](https://godoc.org/github.com/tim-coin/go-libp2p)
 
 ### Examples
 
@@ -100,7 +100,7 @@ Before commiting and pushing to Github, make sure to rewind the gx'ify of depend
 Running of individual tests is done through `gx test <path to test>`
 
 ```bash
-$ cd $GOPATH/src/github.com/libp2p/go-libp2p
+$ cd $GOPATH/src/github.com/tim-coin/go-libp2p
 $ make deps
 $ gx test ./p2p/<path of module you want to run tests for>
 ```
@@ -131,7 +131,7 @@ Guidelines:
 
 - read the [libp2p spec](https://github.com/libp2p/specs)
 - please make branches + pull-request, even if working on the main repository
-- ask questions or talk about things in [Issues](https://github.com/libp2p/go-libp2p/issues) or #ipfs on freenode.
+- ask questions or talk about things in [Issues](https://github.com/tim-coin/go-libp2p/issues) or #ipfs on freenode.
 - ensure you are able to contribute (no legal issues please-- we use the DCO)
 - run `go fmt` before pushing any code
 - run `golint` and `go vet` too -- some things (like protobuf files) are expected to fail.
