@@ -8,7 +8,12 @@
     "goversion": "1.5.2"
   },
   "gxDependencies": [
+
     {
+      "hash": "QmeRgVyVFj3bpgF9vrLepT3AMA8pU5EN8ykbspTo6kcjoz",
+      "name": "go-libp2p-floodsub",
+      "version": "0.0.0"
+    },{
       "hash": "QmcrrEpx3VMUbrbgVroH3YiYyUS5c4YAykzyPJWKspUYLa",
       "name": "go-semver",
       "version": "0.0.0"
@@ -297,4 +302,3 @@
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
   "version": "5.0.18"
 }
-
